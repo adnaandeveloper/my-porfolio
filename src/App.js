@@ -5,6 +5,7 @@ export default function Portfolio() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
@@ -176,7 +177,9 @@ export default function Portfolio() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://linkedin.com/in/
+adnaan-mohamud
+"
               target="_blank"
               className="contact-link"
               rel="noopener noreferrer"
@@ -193,6 +196,15 @@ export default function Portfolio() {
                   type="text"
                   name="name"
                   placeholder="Your Name"
+                  required
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  type="phone"
+                  name="phone"
+                  placeholder="Your Phone Number"
                   required
                   onChange={handleChange}
                 />
