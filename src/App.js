@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-export default function Portfolio() {
+export default function App() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -177,9 +177,7 @@ export default function Portfolio() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://linkedin.com/in/
-adnaan-mohamud
-"
+              href="https://linkedin.com/in/adnaan-mohamud"
               target="_blank"
               className="contact-link"
               rel="noopener noreferrer"
