@@ -1,11 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Adnaan Portfolio",
+  "name": "Adnaan Portfolio",
   "icons": [
     {
       "src": "https://nljp6l7m6h.ufs.sh/f/Zn4V4ziGRb5PXsn5lU4ciU2JFtQ1O4o8Lunz7jpPl6x0kvHK",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "sizes": "any",
+      "type": "image/x-icon",
+      "purpose": "any"
     },
     {
       "type": "image/png",
